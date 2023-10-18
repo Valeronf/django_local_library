@@ -1,1 +1,1 @@
-web: gunicorn pizzamama.wsgi
+web: gunicorn locallibrary.wsgi --log-file -
