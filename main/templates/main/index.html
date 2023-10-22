@@ -1,4 +1,5 @@
 {% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,10 +8,8 @@
 </head>
 <body>
     <div class="centered">
-        <img id ="main_logo" src = "{% static 'main/images/main_logo.png' %}"/>
+        <img id="small_logo" src="{% static 'main/images/main_logo.png' %}"/>
         <a href="{% url 'menu:index' %}">See our menu</a>
     </div>
-
-
 </body>
 </html>
